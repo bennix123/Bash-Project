@@ -12,7 +12,7 @@ output_file_name="$1"
 #checking if the output file name already exist in the directory or not
 
 if [ -e "${output_file_name}.log" ]; then
-    echo "The output file name '${output_file_name}.log' already exists on the directory or not."
+    echo "The output file name '${output_file_name}.log' already exists on the directory."
     exit 1
 fi
 	
